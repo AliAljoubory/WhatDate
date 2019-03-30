@@ -12,6 +12,8 @@
 		48EC3700224BB6D00098FC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EC36FE224BB6D00098FC93 /* Main.storyboard */; };
 		48EC3702224BB6D30098FC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EC3701224BB6D30098FC93 /* Assets.xcassets */; };
 		48EC3705224BB6D30098FC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EC3703224BB6D30098FC93 /* LaunchScreen.storyboard */; };
+		48EC370D224BBF580098FC93 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EC370C224BBF580098FC93 /* CustomButton.swift */; };
+		48EC370F224BC69C0098FC93 /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 48EC370E224BC69C0098FC93 /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		48EC3701224BB6D30098FC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48EC3704224BB6D30098FC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48EC3706224BB6D30098FC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EC370C224BBF580098FC93 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		48EC370E224BC69C0098FC93 /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				48EC36FA224BB6D00098FC93 /* AppDelegate.swift */,
 				48EC36FC224BB6D00098FC93 /* ViewController.swift */,
 				48EC36FE224BB6D00098FC93 /* Main.storyboard */,
+				48EC370C224BBF580098FC93 /* CustomButton.swift */,
+				48EC370E224BC69C0098FC93 /* ImageClassifier.mlmodel */,
 				48EC3701224BB6D30098FC93 /* Assets.xcassets */,
 				48EC3703224BB6D30098FC93 /* LaunchScreen.storyboard */,
 				48EC3706224BB6D30098FC93 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EC370D224BBF580098FC93 /* CustomButton.swift in Sources */,
 				48EC36FD224BB6D00098FC93 /* ViewController.swift in Sources */,
 				48EC36FB224BB6D00098FC93 /* AppDelegate.swift in Sources */,
+				48EC370F224BC69C0098FC93 /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,6 @@
 		48EC370A224BB6D30098FC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV2V35LW7D;
 				INFOPLIST_FILE = WhatDate/Info.plist;
@@ -299,7 +306,6 @@
 		48EC370B224BB6D30098FC93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV2V35LW7D;
 				INFOPLIST_FILE = WhatDate/Info.plist;
